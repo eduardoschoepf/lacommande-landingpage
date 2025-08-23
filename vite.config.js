@@ -16,5 +16,5 @@ export default defineConfig({
     host: "::",
     port: 8080,
   },
-  base: "/lacommande-landingpage",
+  base: "/lacommande-landingpage/",
 })
