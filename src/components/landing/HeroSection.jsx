@@ -26,7 +26,7 @@ const HeroSection = () => {
     {
       number: 4,
       title: "Confirme pelo WhatsApp",
-      description: "Acompanhe a entrega",
+      description: "Você recebe o pedido completo e agiliza a preparação e entrega.",
       image: "📲"
     }
   ];

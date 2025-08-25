@@ -12,20 +12,20 @@ const ProcessSection = () => {
   const steps = [
     {
       icon: ShoppingCart,
-      title: "1. Escolha seus itens",
-      description: "Navegue pelo cardápio e monte seu pedido.",
+      title: "1. O cliente escolhe os itens",
+      description: "Navega pelo cardápio e monta seu pedido personalizado.",
       emoji: "🛒"
     },
     {
       icon: Smartphone,
-      title: "2. Finalize o pedido",
-      description: "Informe seu endereço e escolha a forma de pagamento.",
+      title: "2. Finaliza o pedido",
+      description: "Informa endereço de entrega e indica qual será a forma de pagamento.",
       emoji: "📲"
     },
     {
       icon: Bike,
-      title: "3. Aguarde a entrega",
-      description: "Receba em casa com agilidade e segurança.",
+      title: "3. Confirma no WhatsApp",
+      description: "Você recebe o pedido completo com todos os itens, valor total e forma de pagamento escolhida, agilizando a preparação e entrega.",
       emoji: "🚴‍♂️"
     }
   ];
@@ -43,7 +43,7 @@ const ProcessSection = () => {
             Como funciona?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Em apenas 3 passos simples, você tem seu pedido na porta de casa.
+            Em apenas 3 passos simples, o cliente faz o pedido e você agiliza a preparação.
           </p>
         </motion.div>
 

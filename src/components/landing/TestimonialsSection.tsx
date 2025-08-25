@@ -12,22 +12,22 @@ const TestimonialsSection = () => {
 
   const testimonials = [
     {
-      name: "Eduardo S.",
-      avatar: "ES",
+      name: "Douglas S.",
+      avatar: "DS",
       rating: 5,
-      comment: "Nunca foi tão fácil pedir meu X-CARNE favorito! A plataforma é super intuitiva."
+      comment: "Reduzi os erros de comunicação e aumentei a satisfação dos clientes."
     },
     {
       name: "Maria Silva",
       avatar: "MS", 
       rating: 5,
-      comment: "Entrega super rápida e o acompanhamento em tempo real é perfeito!"
+      comment: "Menos stress, mais eficiência - os clientes pedem online e eu só preparo!"
     },
     {
       name: "João Santos",
       avatar: "JS",
       rating: 5,
-      comment: "Adoro a variedade do cardápio e a facilidade no pagamento. Recomendo!"
+      comment: "Fico menos tempo ao telefone e consigo preparar pedidos com mais agilidade!"
     }
   ];
 

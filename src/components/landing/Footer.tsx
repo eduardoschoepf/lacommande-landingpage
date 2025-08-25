@@ -16,7 +16,7 @@ const Footer = () => {
               A plataforma que revoluciona a experiência de delivery com tecnologia simples e eficiente.
             </p>
             <div className="text-sm text-muted-foreground">
-              <p>© 2024 La Commande. Todos os direitos reservados.</p>
+              <p>© 2025 La Commande. Todos os direitos reservados.</p>
               <p className="flex items-center mt-2">
                 Feito com <Heart className="w-4 h-4 mx-1 text-red-500" fill="currentColor" /> para facilitar sua vida.
               </p>
@@ -26,20 +26,19 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Produto</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Funcionalidades</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Preços</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">API</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Integrações</a></li>
+              <li><a href="#como-funciona" className="hover:text-primary transition-colors">Funcionalidades</a></li>
+              <li><a href="#planos" className="hover:text-primary transition-colors">Preços</a></li>
+              <li><a href="#contato" className="hover:text-primary transition-colors">API</a></li>
+              <li><a href="#contato" className="hover:text-primary transition-colors">Integrações</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-semibold mb-4">Suporte</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Central de Ajuda</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">WhatsApp</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Documentação</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Status</a></li>
+              <li><a href="#contato" className="hover:text-primary transition-colors">Central de Ajuda</a></li>
+              <li><a href="#contato" className="hover:text-primary transition-colors">WhatsApp</a></li>
+              <li><a href="#contato" className="hover:text-primary transition-colors">Documentação</a></li>
             </ul>
           </div>
         </div>

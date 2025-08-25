@@ -34,6 +34,7 @@ const CTASection = () => {
               <Button 
                 size="lg" 
                 className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-lg text-lg px-8 py-6"
+                onClick={() => window.open(`https://wa.me/5551997041908?text=Ol%C3%A1%2C+tenho+interesse+e+gostaria+ostaria+de+obter+mais+informações.`, '_blank')}
               >
                 <MessageCircle className="mr-3 w-6 h-6" />
                 WhatsApp
@@ -45,15 +46,6 @@ const CTASection = () => {
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6"
-                onClick={() => window.open('https://eduardoschoepf.github.io/la-commande', '_blank')}
-              >
-                Teste Grátis
-                <ArrowRight className="ml-3 w-6 h-6" />
-              </Button>
             </motion.div>
           </div>
 

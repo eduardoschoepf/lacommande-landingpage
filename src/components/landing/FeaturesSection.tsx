@@ -27,8 +27,8 @@ const FeaturesSection = () => {
     },
     {
       icon: Package,
-      title: "Acompanhamento",
-      description: "Status do pedido em tempo real."
+      title: "Agilidade",
+      description: "Você recebe o pedido completo no WhatsApp."
     }
   ];
 
