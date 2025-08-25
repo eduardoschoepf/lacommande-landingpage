@@ -108,7 +108,7 @@ const PricingSection = () => {
                     }`}
                     variant={plan.popular ? 'default' : 'outline'}
                     size="lg"
-                    onClick={() => window.open(`https://wa.me/5551997041908?text=Ol%C3%A1%2C+tenho+interesse+no+plano+Mensal+de+${plan.price}+do+La+Commande.`, '_blank')}
+                    onClick={() => window.open(`https://wa.me/5551997041908?text=Ol%C3%A1%2C+tenho+interesse+no+${plan.name}+de+${plan.price}+do+La+Commande.`, '_blank')}
                   >
                     {plan.ctaText}
                   </Button>
