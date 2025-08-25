@@ -1,12 +1,69 @@
-# React + Vite
+# Landing Page - SaaS Delivery Solution  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page desenvolvida para **captação de assinaturas B2B** da plataforma **La Commande**.  
+O objetivo principal é servir como **página de conversão otimizada**, direcionada a **donos de restaurantes** que buscam modernizar e automatizar sua gestão de pedidos.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Prévia do Projeto  
 
-## Expanding the ESLint configuration
+![Landing Page SaaS Delivery](./src/assets/landing-preview.png)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Objetivo
+- Apresentar os benefícios da solução SaaS de delivery.  
+- Captar assinaturas através de chamadas estratégicas para ação (CTAs).  
+- Facilitar o contato direto com potenciais clientes via formulário e integração com WhatsApp.  
+
+---
+
+## 👥 Público-alvo
+Donos de restaurantes e estabelecimentos de alimentação interessados em uma solução prática para gerenciar pedidos e aumentar suas vendas.  
+
+---
+
+## 🛠️ Stack Tecnológica
+- **React** 18  
+- **Vite** 7.1.3  
+- **TailwindCSS** 3.4.17  
+- **TypeScript** 5.8.3  
+
+---
+
+## ✨ Funcionalidades
+- **Seções principais**:  
+  - Hero com chamada para ação (CTA).  
+  - Apresentação de planos.  
+  - Depoimentos de clientes.  
+
+- **Recursos interativos**:  
+  - Formulário de contato.  
+  - Integração com WhatsApp para atendimento rápido.  
+  - Botões de assinatura direcionados para conversão.  
+
+---
+
+## 🚀 Deploy
+O projeto está hospedado no **GitHub Pages**.  
+
+🔗 [Acesse a Landing Page](https://eduardoschoepf.github.io/lacommande-landingpage/)
+
+---
+
+## ⚙️ Como rodar localmente
+```bash
+# Clone este repositório
+git clone https://github.com/seu-usuario/landing-saas-delivery.git
+
+# Acesse a pasta do projeto
+cd landing-saas-delivery
+
+# Instale as dependências
+npm install
+
+# Rode o projeto em ambiente de desenvolvimento
+npm run dev
+```
+
+## 📜 Licença
+
+Este projeto é de uso privado.
