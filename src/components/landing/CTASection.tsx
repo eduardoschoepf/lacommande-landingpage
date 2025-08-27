@@ -56,12 +56,12 @@ const CTASection = () => {
             className="mt-12 pt-12 border-t border-primary-foreground/20"
           >
             <p className="text-primary-foreground/70 text-sm">
-              Junte-se a milhares de estabelecimentos que já confiam no La Commande
+              Junte-se a dezenas de estabelecimentos que já confiam no La Commande
             </p>
             <div className="flex justify-center items-center mt-6 space-x-8 text-primary-foreground/60">
-              <span className="text-2xl font-bold">1000+</span>
+              <span className="text-2xl font-bold">60+</span>
               <span className="text-sm">Restaurantes</span>
-              <span className="text-2xl font-bold">50k+</span>
+              <span className="text-2xl font-bold">3k+</span>
               <span className="text-sm">Pedidos</span>
               <span className="text-2xl font-bold">4.9★</span>
               <span className="text-sm">Avaliação</span>

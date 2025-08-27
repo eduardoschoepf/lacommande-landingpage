@@ -17,9 +17,6 @@ const Footer = () => {
             </p>
             <div className="text-sm text-muted-foreground">
               <p>© 2025 La Commande. Todos os direitos reservados.</p>
-              <p className="flex items-center mt-2">
-                Feito com <Heart className="w-4 h-4 mx-1 text-red-500" fill="currentColor" /> para facilitar sua vida.
-              </p>
             </div>
           </div>
 
@@ -28,8 +25,8 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li><a href="#como-funciona" className="hover:text-primary transition-colors">Funcionalidades</a></li>
               <li><a href="#planos" className="hover:text-primary transition-colors">Preços</a></li>
-              <li><a href="#contato" className="hover:text-primary transition-colors">API</a></li>
-              <li><a href="#contato" className="hover:text-primary transition-colors">Integrações</a></li>
+              <li><a href="#contato" className="hidden hover:text-primary transition-colors">API</a></li>
+              <li><a href="#contato" className="hidden hover:text-primary transition-colors">Integrações</a></li>
             </ul>
           </div>
 
@@ -38,12 +35,12 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li><a href="#contato" className="hover:text-primary transition-colors">Central de Ajuda</a></li>
               <li><a href="#contato" className="hover:text-primary transition-colors">WhatsApp</a></li>
-              <li><a href="#contato" className="hover:text-primary transition-colors">Documentação</a></li>
+              <li><a href="#contato" className="hidden hover:text-primary transition-colors">Documentação</a></li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t mt-12 pt-8 text-center text-sm text-muted-foreground">
+        <div className="hidden border-t mt-12 pt-8 text-center text-sm text-muted-foreground">
           <p>
             <a href="#" className="hover:text-primary transition-colors">Termos de Uso</a>
             {" • "}

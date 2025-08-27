@@ -9,7 +9,7 @@ const HeroSection = () => {
       number: 1,
       title: "Escolha no cardápio",
       description: "Navegue pelos produtos",
-      image: "📱"
+      image: "🍔"
     },
     {
       number: 2,
@@ -19,8 +19,8 @@ const HeroSection = () => {
     },
     {
       number: 3,
-      title: "Finalize seu pedido",
-      description: "Escolha pagamento",
+      title: "Informe a forma de pagamento",
+      description: "Finalize seu pedido",
       image: "💳"
     },
     {
@@ -109,7 +109,7 @@ const HeroSection = () => {
             <Button 
               size="lg" 
               className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
-              onClick={() => window.open('https://eduardoschoepf.github.io/la-commande', '_blank')}
+              onClick={() => window.open('https://eduardoschoepf.github.io/la-commande-delivery', '_blank')}
             >
               Teste Grátis
             </Button>

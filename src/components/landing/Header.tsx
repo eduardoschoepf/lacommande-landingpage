@@ -38,7 +38,7 @@ const Header = () => {
             <Button 
               size="sm" 
               className="bg-gradient-primary shadow-primary"
-              onClick={() => window.open('https://eduardoschoepf.github.io/la-commande', '_blank')}
+              onClick={() => window.open('https://eduardoschoepf.github.io/la-commande-delivery', '_blank')}
             >
               Teste Grátis
             </Button>
@@ -78,7 +78,7 @@ const Header = () => {
                 <Button 
                   size="sm" 
                   className="bg-gradient-primary"
-                  onClick={() => window.open('https://eduardoschoepf.github.io/la-commande', '_blank')}
+                  onClick={() => window.open('https://eduardoschoepf.github.io/la-commande-delivery', '_blank')}
                 >
                   Teste Grátis
                 </Button>

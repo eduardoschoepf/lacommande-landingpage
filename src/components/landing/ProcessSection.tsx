@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Card, CardContent } from "@/components/ui/card";
-import { ShoppingCart, Smartphone, Bike } from "lucide-react";
+import { Hamburger, ShoppingCart, Smartphone } from "lucide-react";
 
 const ProcessSection = () => {
   const [ref, inView] = useInView({
@@ -11,22 +11,22 @@ const ProcessSection = () => {
 
   const steps = [
     {
-      icon: ShoppingCart,
+      icon: Hamburger,
       title: "1. O cliente escolhe os itens",
       description: "Navega pelo cardápio e monta seu pedido personalizado.",
+      emoji: "🍔"
+    },
+    {
+      icon: ShoppingCart,
+      title: "2. Finaliza o pedido",
+      description: "Informa endereço de entrega e indica qual será a forma de pagamento.",
       emoji: "🛒"
     },
     {
       icon: Smartphone,
-      title: "2. Finaliza o pedido",
-      description: "Informa endereço de entrega e indica qual será a forma de pagamento.",
-      emoji: "📲"
-    },
-    {
-      icon: Bike,
       title: "3. Confirma no WhatsApp",
       description: "Você recebe o pedido completo com todos os itens, valor total e forma de pagamento escolhida, agilizando a preparação e entrega.",
-      emoji: "🚴‍♂️"
+      emoji: "📲"
     }
   ];
 
@@ -59,9 +59,6 @@ const ProcessSection = () => {
               <Card className="h-full hover:shadow-glow transition-all duration-300 border-border/50 hover:border-primary/30">
                 <CardContent className="p-8 text-center">
                   <div className="text-6xl mb-6">{step.emoji}</div>
-                  <div className="w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-primary">
-                    <step.icon className="w-8 h-8 text-primary-foreground" />
-                  </div>
                   <h3 className="text-xl font-semibold mb-4">{step.title}</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     {step.description}
